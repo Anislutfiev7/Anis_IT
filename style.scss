@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: auto;
+    
+    .section__wrapper h1 {
+        @media(max-width:1526px) {
+            h1 {
+                font-size: 10px;
+            }
+        }
+    }
+}
